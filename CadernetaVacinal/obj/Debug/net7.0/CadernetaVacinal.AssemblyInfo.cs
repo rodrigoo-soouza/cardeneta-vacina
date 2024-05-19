@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadernetaVacinal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3ab82486132abe94dd9d4f6a8615a567ab2c4f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadernetaVacinal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadernetaVacinal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

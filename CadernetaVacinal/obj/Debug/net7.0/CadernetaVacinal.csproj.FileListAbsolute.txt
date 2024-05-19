@@ -261,3 +261,4 @@ C:\Users\digos\OneDrive\Área de Trabalho\Vacinas\CadernetaVacinal\CadernetaVaci
 C:\Users\digos\OneDrive\Área de Trabalho\Vacinas\CadernetaVacinal\CadernetaVacinal\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\digos\OneDrive\Área de Trabalho\Vacinas\CadernetaVacinal\CadernetaVacinal\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
 C:\Users\digos\OneDrive\Área de Trabalho\Vacinas\CadernetaVacinal\CadernetaVacinal\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\digos\OneDrive\Área de Trabalho\Vacinas\CadernetaVacinal\CadernetaVacinal\obj\Debug\net7.0\CadernetaVacinal.sourcelink.json

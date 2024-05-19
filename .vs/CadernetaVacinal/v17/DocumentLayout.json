@@ -1,52 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\views\\vacinas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\views\\vacinas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\views\\vacinas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\views\\vacinas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\views\\vacinas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\views\\vacinas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\views\\vacinas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\views\\vacinas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\views\\vacinas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\views\\vacinas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\models\\vacina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\models\\vacina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|c:\\users\\digos\\onedrive\\\u00E1rea de trabalho\\vacinas\\cadernetavacinal\\cadernetavacinal\\controllers\\vacinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0987068-8F6D-41F6-B83D-DC64D70D8349}|CadernetaVacinal\\CadernetaVacinal.csproj|solutionrelative:cadernetavacinal\\controllers\\vacinascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -54,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,147 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Vacinas\\Details.cshtml",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Views\\Vacinas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Vacinas\\Details.cshtml",
-              "RelativeToolTip": "CadernetaVacinal\\Views\\Vacinas\\Details.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFIAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T21:58:19.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "CadernetaVacinal\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T21:49:36.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Vacinas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Views\\Vacinas\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Vacinas\\Delete.cshtml",
-              "RelativeToolTip": "CadernetaVacinal\\Views\\Vacinas\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T21:06:55.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CadernetaVacinal\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T18:38:59.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Vacinas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Views\\Vacinas\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Vacinas\\Edit.cshtml",
-              "RelativeToolTip": "CadernetaVacinal\\Views\\Vacinas\\Edit.cshtml",
-              "ViewState": "AQIAADEAAAAAAAAAAAAxwD8AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T18:18:55.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Vacinas\\Index.cshtml",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Views\\Vacinas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Vacinas\\Index.cshtml",
-              "RelativeToolTip": "CadernetaVacinal\\Views\\Vacinas\\Index.cshtml",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAADMAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T17:51:06.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CadernetaVacinal\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T18:57:12.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Vacina.cs",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Models\\Vacina.cs",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Models\\Vacina.cs",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Models\\Vacina.cs",
-              "RelativeToolTip": "CadernetaVacinal\\Models\\Vacina.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAA1wC0AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:05:12.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Vacinas\\Create.cshtml",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Views\\Vacinas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Vacinas\\Create.cshtml",
-              "RelativeToolTip": "CadernetaVacinal\\Views\\Vacinas\\Create.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T17:48:01.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "CadernetaVacinal\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAgAAABuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T21:49:43.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VacinasController.cs",
-              "DocumentMoniker": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Controllers\\VacinasController.cs",
-              "RelativeDocumentMoniker": "CadernetaVacinal\\Controllers\\VacinasController.cs",
-              "ToolTip": "C:\\Users\\digos\\OneDrive\\\u00C1rea de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\Controllers\\VacinasController.cs",
-              "RelativeToolTip": "CadernetaVacinal\\Controllers\\VacinasController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAYwB4AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T17:51:00.503Z"
             }
           ]
         }
