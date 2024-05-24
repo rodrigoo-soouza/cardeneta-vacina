@@ -26,8 +26,6 @@ public class VacinasController : Controller
     {
           return _context.Vacinas != null ? 
                       View(await _context.Vacinas
-                      .AsNoTracking()
-                      .Where(x => x.User == User.Identity.Name) 
                       .ToListAsync()) :
                       Problem("Entity set 'ApplicationDbContext.Vacinas'  is null.");
     }
@@ -46,12 +44,7 @@ public class VacinasController : Controller
         {
             return NotFound();
         }
-
-        if (vacina.User != User.Identity.Name)
-        {
-            return NotFound();
-        }
-
+                
         return View(vacina);
     }
 
@@ -90,10 +83,15 @@ public class VacinasController : Controller
             return NotFound();
         }
 
-        if (vacina.User != User.Identity.Name)
+        if (User.Identity.Name != "admin@admin.com")
         {
-            return NotFound();
+            if (vacina.User != User.Identity.Name)
+            {
+                return View("Denied");
+            }
         }
+
+            
 
         return View(vacina);
     }
@@ -147,10 +145,15 @@ public class VacinasController : Controller
             return NotFound();
         }
 
-        if (vacina.User != User.Identity.Name)
+        if (User.Identity.Name != "admin@admin.com")
         {
-            return NotFound();
+            if (vacina.User != User.Identity.Name)
+            {
+                return View("Denied");
+            }
         }
+
+            
 
         return View(vacina);
     }

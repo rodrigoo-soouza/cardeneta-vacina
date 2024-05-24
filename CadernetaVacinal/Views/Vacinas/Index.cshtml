@@ -9,59 +9,60 @@
 <p>
     <a asp-action="Create" class="btn btn-primary">Inserir Dados</a>
 </p>
-<table class="table table-hover">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.VacinaId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Lote)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NomeVacina)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Local)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataVacinação)
-            </th>
-                        
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.VacinaId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Lote)
-
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NomeVacina)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Local)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataVacinação)
-            </td>
-            
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
             <tr>
-                <td colspan="6">
-
-                    <a asp-action="Edit" asp-route-id="@item.VacinaId" class="btn btn-primary">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.VacinaId" class="btn btn-secondary">Detalhes</a> |
-                    <a asp-action="Delete" asp-route-id="@item.VacinaId" class="btn btn-danger">Deletar</a>
-
-                </td>
+                <th>
+                    @Html.DisplayNameFor(model => model.VacinaId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>            
+                <th>
+                    @Html.DisplayNameFor(model => model.NomeVacina)
+                </th>
+                <th class="col-md-3">
+                    @Html.DisplayNameFor(model => model.User)
+                </th>            
+                <th class="d-none d-md-table-cell">
+                    @Html.DisplayNameFor(model => model.DataVacinação)
+                </th>
+                        
+                <th></th>
             </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VacinaId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>            
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeVacina)
+                </td>
+                    <td class="col-md-3">
+                    @Html.DisplayFor(modelItem => item.User)
+                </td>            
+                <td class="d-none d-md-table-cell">
+                    @Html.DisplayFor(modelItem => item.DataVacinação)
+                </td>
             
-        </tr>
-}
-    </tbody>
-</table>
+                <tr>
+                    <td colspan="6">
+
+                        <a asp-action="Edit" asp-route-id="@item.VacinaId" class="btn btn-primary">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.VacinaId" class="btn btn-secondary">Detalhes</a> |
+                        <a asp-action="Delete" asp-route-id="@item.VacinaId" class="btn btn-danger">Deletar</a>
+
+                    </td>
+                </tr>
+            
+            </tr>
+    }
+        </tbody>
+    </table>
+</div>

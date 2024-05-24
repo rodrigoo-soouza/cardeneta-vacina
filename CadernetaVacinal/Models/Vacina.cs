@@ -38,7 +38,7 @@ public class Vacina
 
     [Required(ErrorMessage = "O Nomme do Paciente é obrigatório.")]
     [StringLength(100, ErrorMessage = "O Nome deve ter no máximo 100 caracteres.")]
-    [DisplayName("Nome Completo do Paciente")]
+    [DisplayName("Nome do Paciente")]
     public string Nome { get; set; } = string.Empty;
 
 
