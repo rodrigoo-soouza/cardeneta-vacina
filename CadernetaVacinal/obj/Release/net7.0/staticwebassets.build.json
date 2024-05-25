@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2M9/M1YgWRRaKt7uCg4P4Qb1qdGn4Cz5L8jXfxMnPl4=",
+  "Hash": "2q1PVbzi9uVonZ20j/h1jpN8AOdOCkjmXns29d0wZ2M=",
   "Source": "CadernetaVacinal",
   "BasePath": "_content/CadernetaVacinal",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\digos\\OneDrive\\Área de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\wwwroot\\img\\acesso negado.jpg",
+      "SourceId": "CadernetaVacinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\digos\\OneDrive\\Área de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\wwwroot\\",
+      "BasePath": "_content/CadernetaVacinal",
+      "RelativePath": "img/acesso negado.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\acesso negado.jpg"
     },
     {
       "Identity": "C:\\Users\\digos\\OneDrive\\Área de Trabalho\\Vacinas\\CadernetaVacinal\\CadernetaVacinal\\wwwroot\\img\\home.jpg",
