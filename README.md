@@ -1,8 +1,8 @@
-# README - API de Caderneta Vacinal
+# README - Aplicação Web Caderneta Vacinal
 
 ## Visão Geral
 
-A API de Caderneta Vacinal é projetada para simplificar o trabalho dos agentes das Unidades Básicas de Saúde (UBS), aprimorando o sistema de cadastro de pacientes e suas informações de vacinação. Este sistema robusto oferece um CRUD (Create, Read, Update, Delete) com controle de acesso rigoroso, garantindo que os dados sejam gerenciados de forma segura e eficiente.
+A Aplicação de Caderneta Vacinal é projetada para simplificar o trabalho dos agentes das Unidades Básicas de Saúde (UBS), aprimorando o sistema de cadastro de pacientes e suas informações de vacinação. Este sistema robusto oferece um CRUD (Create, Read, Update, Delete) com controle de acesso rigoroso, garantindo que os dados sejam gerenciados de forma segura e eficiente.
 
 ## Funcionalidades
 
@@ -19,22 +19,22 @@ A API de Caderneta Vacinal é projetada para simplificar o trabalho dos agentes 
 - **Agente da UBS:**
   - Permissões: Criar, ler, atualizar e excluir apenas os registros que criou.
 
-## Endpoints da API
+## Endpoints da Aplicação nos Controllers
 
 ### Autenticação
 
 - **Login**
-  - `POST /api/login`
+  - `POST /login`
   - Autentica o usuário e retorna um token de acesso.
 
 - **Logout**
-  - `POST /api/logout`
+  - `POST /logout`
   - Encerra a sessão do usuário autenticado.
 
 ### Pacientes
 
 - **Criar Paciente**
-  - `POST /api/pacientes`
+  - `POST /pacientes`
   - Corpo da Requisição:
     ```json
     {
@@ -45,9 +45,20 @@ A API de Caderneta Vacinal é projetada para simplificar o trabalho dos agentes 
       "telefone": "string"
     }
     ```
+### Modelo (Model):
+Representa os dados e a lógica de negócios por trás da aplicação. Ele gerencia o comportamento e os dados da aplicação, respondendo a consultas sobre seu estado e alterando esse estado quando apropriado. Em muitos casos, os modelos são conectados a um banco de dados para armazenar e recuperar informações.
+
+### Visão (View):
+É a camada de apresentação da aplicação. Ele exibe as informações ao usuário e fornece uma interface com a qual o usuário pode interagir. As visões geralmente são responsáveis por formatar os dados do modelo de maneira adequada para exibição.
+
+### Controlador (Controller):
+Age como um intermediário entre o modelo e a visão. Ele recebe as entradas do usuário, processa essas entradas (frequentemente invocando métodos no modelo) e atualiza a visão de acordo. O controlador geralmente contém a lógica que coordena o fluxo de controle da aplicação.
+
+A arquitetura MVC promove a separação de preocupações, facilitando a manutenção e a escalabilidade do código. Por exemplo, se você precisar fazer alterações na interface do usuário, pode mexer apenas na camada de visualização, sem precisar modificar a lógica de negócios subjacente no modelo ou no controlador. Isso também facilita o teste, já que cada componente pode ser testado separadamente.
+
 
 - **Listar Pacientes**
-  - `GET /api/pacientes`
+  - `GET /pacientes`
   - Retorna a lista de pacientes cadastrados.
 
 - **Consultar Paciente**
@@ -57,7 +68,7 @@ A API de Caderneta Vacinal é projetada para simplificar o trabalho dos agentes 
   - Retorna as informações detalhadas do paciente.
 
 - **Atualizar Paciente**
-  - `PUT /api/pacientes/{id}`
+  - `PUT /pacientes/{id}`
   - Parâmetros:
     - `id`: ID do paciente.
   - Corpo da Requisição:
@@ -72,14 +83,14 @@ A API de Caderneta Vacinal é projetada para simplificar o trabalho dos agentes 
     ```
 
 - **Excluir Paciente**
-  - `DELETE /api/pacientes/{id}`
+  - `DELETE /pacientes/{id}`
   - Parâmetros:
     - `id`: ID do paciente.
 
 ### Vacinas
 
 - **Registrar Vacina**
-  - `POST /api/vacinas`
+  - `POST /vacinas`
   - Corpo da Requisição:
     ```json
     {
@@ -92,17 +103,17 @@ A API de Caderneta Vacinal é projetada para simplificar o trabalho dos agentes 
     ```
 
 - **Listar Vacinas**
-  - `GET /api/vacinas`
+  - `GET /vacinas`
   - Retorna a lista de vacinas registradas.
 
 - **Consultar Vacina**
-  - `GET /api/vacinas/{id}`
+  - `GET /vacinas/{id}`
   - Parâmetros:
     - `id`: ID da vacina.
   - Retorna as informações detalhadas da vacina.
 
 - **Atualizar Vacina**
-  - `PUT /api/vacinas/{id}`
+  - `PUT /vacinas/{id}`
   - Parâmetros:
     - `id`: ID da vacina.
   - Corpo da Requisição:
@@ -117,7 +128,7 @@ A API de Caderneta Vacinal é projetada para simplificar o trabalho dos agentes 
     ```
 
 - **Excluir Vacina**
-  - `DELETE /api/vacinas/{id}`
+  - `DELETE /vacinas/{id}`
   - Parâmetros:
     - `id`: ID da vacina.
 
@@ -128,19 +139,20 @@ A API de Caderneta Vacinal é projetada para simplificar o trabalho dos agentes 
 
 ## Autenticação
 
-A API utiliza autenticação baseada em tokens. Para acessar os endpoints protegidos, é necessário incluir o token de acesso no cabeçalho da requisição:
+A Web Alicação utiliza autenticação baseada em autorização e autenticação. Para acessar os controllers protegidos, é necessário seguir as políticas de acesso e autorização:
 
 ```http
-Authorization: Bearer {token}
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
 ```
 
 ## Instalação e Configuração
 
-### Pré-requisitos
+### Tecnologias Utilizadas
 
-- ASP.NET
+- ASP.NET 
 - C#
-- Bootstrap
+- Html e CSS
+- Bootstrap 5
 
 ### Passos
 
@@ -149,22 +161,31 @@ Authorization: Bearer {token}
    git clone https://github.com/rodrigoo-soouza/cardeneta-vacina
    ```
 
-2. Instale as dependências:
+2. Instale os pacotes com as referências:
    ```sh
-   cd repositorio
-   npm install
+   
+   pacotes Dotnet da Microsoft
+   "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.16"
+   "Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.16"
+   "Microsoft.AspNetCore.Identity.UI" Version="7.0.16"
+   "Microsoft.EntityFrameworkCore" Version="7.0.19"
+   "Microsoft.EntityFrameworkCore.Design" Version="7.0.19"
+   "Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.16"
+   "Microsoft.EntityFrameworkCore.Tools" Version="7.0.18"
+   "Microsoft.VisualStudio.Web.CodeGeneration" Version="7.0.12"
+   "Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.12"
    ```
 
-3. Configure as variáveis de ambiente no arquivo `.env`.
+3. Configure e gere as chaves e segredos no Azure para proteger a Connection String.
 
 4. Inicialize o banco de dados:
    ```sh
-   npx sequelize db:migrate
+   Banco de dados SQL Server com uso de migrações
    ```
 
 5. Inicie o servidor:
    ```sh
-   npm start
+   Inicializado numa Web Application MVC, deploy para modo de produção na Azure.  
    ```
 
 ## Contribuição
