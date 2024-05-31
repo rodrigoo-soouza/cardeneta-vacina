@@ -139,7 +139,7 @@ A arquitetura MVC promove a separação de preocupações, facilitando a manuten
 
 ## Autenticação
 
-A Web Alicação utiliza autenticação baseada em autorização e autenticação. Para acessar os controllers protegidos, é necessário seguir as políticas de acesso e autorização:
+A Web Aplicação utiliza autenticação baseada em autorização e autenticação. Para acessar os controllers protegidos, é necessário seguir as políticas de acesso e autorização:
 
 ```
 Microsoft.AspNetCore.Identity.EntityFrameworkCore
